@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.header {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+}
+
+.large {
+  display: flex;
+}
+.small {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .large {
+    display: none;
+  }
+  .small {
+    display: flex;
+  }
+}

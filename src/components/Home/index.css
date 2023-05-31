@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+
+.homesection {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.title {
+  font-size: 48px;
+  color: #1e293b;
+}
+
+.caption {
+  color: #475569;
+  font-size: 21px;
+  font-family: 'Roboto';
+}
+
+.small {
+}
